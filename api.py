@@ -10,7 +10,7 @@ from flask import Flask, render_template, request, jsonify
 from flask_restful import Resource, Api
 
 #importing necessary functions
-from main3 import *
+from main import *
 
 #initializing API
 app = Flask(__name__)
